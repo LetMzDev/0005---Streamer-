@@ -24,11 +24,11 @@ body {
 }
 
 .principal {
-	background-image: url("/img/Background.png");
+	background-image: url("img/Background.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	align-items: center; /* Centralizar todo o conteúdo na vertical */
-	text-align: center; /* Centraliza todo o texto */
+	align-items: center;
+	text-align: center;
 }
 
 .container {
@@ -110,7 +110,7 @@ body {
 .dispositivos__lista {
 	display: flex;
 	justify-content: center;
-	list-style-type: none; /* Remove os pontos da lista */
+	list-style-type: none;
 	margin: 5em 0;
 }
 
@@ -118,8 +118,6 @@ body {
 	font-size: 2rem;
 	color: var(--branco-principal);
 }
-
-/* ------- */
 
 .rodape {
 	text-align: center;

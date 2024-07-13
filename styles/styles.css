@@ -172,8 +172,8 @@ body {
 
 	.container__imagem {
 		margin: 0;
-		max-width: 100%;	/* Redimensionar a imagem */
-		height: auto;		/* Redimensionar a imagem */
+		max-width: 100%;
+		height: auto;
 	}
 
 	.secundario {
@@ -183,9 +183,8 @@ body {
 
 	.secundario__imagem
 	{
-		max-width: 100%;	/* Redimensionar a imagem */
+		max-width: 100%;
 		height: auto;
-		
 	}
 
 	.secundario__botao {
@@ -207,8 +206,6 @@ body {
 		padding: 2em;
 	}
 
-	/*Dispositivos*/
-
 	.dispositivos__titulo {
 		font-size: 1.5rem;
 		padding: 4em;
@@ -217,8 +214,6 @@ body {
 	.dispositivos__lista {
 		flex-direction: column;
 	}
-
-	/* rodape */
 
 	.rodape {
 		margin: 3em 0;
